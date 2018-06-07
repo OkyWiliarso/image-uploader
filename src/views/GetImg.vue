@@ -29,9 +29,7 @@ export default {
       })
       .then(response => {
         console.log(response.data[0].url)
-        response.forEach(image => {
-          
-        })
+        
       })
       .catch(err => {
         console.log(err)
